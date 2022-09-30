@@ -1,0 +1,131 @@
+/* .win{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.win2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+#fo{
+    color: red;
+    font-size: 30px;
+}
+#vol{
+    color: red;
+}
+center{
+    color: red;
+}
+
+.bgg{
+    background: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0));
+}
+
+.bgc2{
+    background-size: cover;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.carousel-section {
+    margin-top: 70px;
+}
+
+.carousel-section img {
+    width: 500px;
+    height: 400px;
+}
+
+.head-section .sub-nav {
+    background-color: #053360;
+    color: #FFFFFF;
+    padding: 5px 80px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-section .sub-nav span {
+    margin: 5px;
+}
+
+.head-section .sub-nav .font-style {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 20px;
+    display: none;
+}
+
+.head-section .sub-nav .timer {
+    font-size: 20px;
+}
+
+.head-section .sub-nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.head-section .nav-section {
+    padding: 10px 70px;
+    border-bottom: 2px solid #053360;
+}
+
+.head-section .nav-section button {
+    background-color: rgb(247, 33, 33);
+    border-radius: none;
+    color: #FFFFFF;
+}
+
+.head-section .home-showcase-section .showcase {
+    background-color: #053360;
+    padding: 20px;
+}
+
+.head-section .home-showcase-section .showcase img {
+    width: 400px;
+    border-radius: 50%;
+}
+
+.head-section .home-showcase-section .showcase .writeup {
+    color: #FFFFFF;
+    display: none;
+}
+
+.head-section .home-showcase-section .showcase .writeup h1 {
+    font-weight: bolder;
+}
+
+.head-section .home-section {
+    padding: 30px;
+}
+
+.head-section .home-section #odd {
+    border-left: 1px solid #053360;
+}
+
+.head-section .home-section i {
+    font-size: 30px;
+    color: #053360;
+}
+
+.head-section .home-section .statement {
+    border-right: 1px solid #053360;
+    padding: 20px;
+}
